@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Test	
+		</title>
+		<style>
+			body {
+			  font-family: Arial, sans-serif;
+			  background-color: #ffffff;
+			  margin: 0;
+			  padding: 0;
+			}
+
+			h1 {
+			  color: #333;
+			  margin-bottom: 5px;
+			}
+
+			h2 {
+			  color: #00539C;
+			  border-bottom: 1px solid #ddd;
+			  padding-bottom: 5px;
+			  margin-top: 30px;
+			  text-decoration: underline;
+			}
+			
+			ul {
+			  list-style-type: disc;
+			  margin-left: 20px;
+			}
+			
+			.resume-container {
+			  background-color: #ffffff;
+			  max-width: 700px;
+			  margin: 30px auto;
+			  padding: 30px;
+			  border-radius: 8px;
+			  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+			}
+			
+			.profile-photo {
+			  width: 100px;
+			  height: 120px;
+			  object-fit: cover;
+			  border-radius: 8px;
+			  position: absolute;
+			  top: 20px;
+			  right: 20px;
+			}
+			
+			.item {
+			  margin-bottom: 15px;
+			}
+			
+			.item-flex {
+				display: flex;
+				align-items: flex-start;
+				margin-bottom: 15px;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.item-content {
+				 flex: 1;
+			}
+
+			.item-date {
+				 min-width: 120px;
+				 color: #888;
+				 font-size: 0.8em;
+				 margin-left: 18px;
+				 text-align: left;
+				 flex-shrink: 0;
+			}
+			
+			.course-list {
+				list-style-type: disc;
+				font-size: 0.98em;
+				margin-left: 5px;
+			}
+
+			.contact-info {
+			  color: #555;
+			  font-size: 1em;
+			  margin-bottom: 20px;
+			  position: relative;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="resume-container">
+			<div class = "contact-info">
+				<img src="picture.jpg" alt="Picture" class="profile-photo">
+				<h1>Jiale Ling</h1>
+					<ul>
+						<li>Email: <a href="mailto:lingj3@rpi.edu">lingj3@rpi.edu</a></li>
+						<li>Phonenumber: 585-820-4352
+						<li>City: Troy, State: New York
+					</ul>
+
+				<h2>Objective</h2>
+				<p>
+				  To obtain a Software Engineering internship.
+				</p>
+
+				<!-- Education section -->
+				<h2>Education</h2>
+				<div class = "item">
+					<div class = "item-flex">
+						<div class = "item-content">
+							<strong>The No.3 Senior High School of Shenzhen:</strong><br>
+							High School Diploma<br>
+						</div>
+						<div class = "item-date">
+							2021 ~ 2024
+						</div>
+					</div>
+				</div>
+				
+				<div class="item">
+					<div class = "item-flex">
+						<div class = "item-content">
+							<strong>Rensselaer Polytechnic Institute:</strong><br>
+							Major: Computer Science
+						</div>
+							
+						<!-- <div class="course-section"> -->
+						<div class = "item-date">
+							2024 ~ 2028
+						</div>
+					</div>
+					<strong>Coursework:</strong><br>
+						<div class="course-list">
+							<ul>
+								<li><span class="course-category">Math:</span> Calculus 1, Calculus 2, Multivariable Calculus & Matrix Algebra, Intro Differential Equations, Intro to Linear Algebra</li>
+								<li><span class="course-category">CS & ITWS:</span> Intro to Computer Science, Data Structures, Intro to ITWS</li>
+								<li><span class="course-category">Free Electives:</span> Intro to Biology, Intro to Psychological Science, Principles of Economics, Physics I (M), Intro to Literature, Business Ethics & Law</li>
+								<li><span class="course-category">Pathway:</span> Intro to Formal Logic</li>
+							</ul>
+						</div>
+				</div>
+
+				<!-- Skills section -->
+				<h2>Skills</h2>
+				<div class="course-list">
+					<ul>
+					  <li>HTML, CSS3</li>
+					  <li>Basic Python</li>
+					  <li>Basic C++</li>
+					</ul>
+				</div>
+
+				<!-- Experience section -->
+				<h2>Experience</h2>
+				<div class="item">
+				  <strong>Intern, The Chinese University of Hong Kong:</strong><br>
+				  <div class="course-list">
+					<span>June 2025 - August 2025<br>
+					Learn deep learning, Data Analysis and Machine Learning of Python.
+					</span>
+				  </div>
+				</div>
+
+				<!-- Activities section -->
+				<h2>Hobby</h2>
+				<div class="course-list">
+					<ul>
+					  <li>Badminton</li>
+					  <li>Playing Video Game</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
